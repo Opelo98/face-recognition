@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\so17001133\\Documents\\FaceRecognition111\\FaceRecognition111.csproj": {}
+    "C:\\Users\\so17001133\\Documents\\FaceRecognition111\\face-recognition\\FaceRecognition111.csproj": {}
   },
   "projects": {
-    "C:\\Users\\so17001133\\Documents\\FaceRecognition111\\FaceRecognition111.csproj": {
+    "C:\\Users\\so17001133\\Documents\\FaceRecognition111\\face-recognition\\FaceRecognition111.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\so17001133\\Documents\\FaceRecognition111\\FaceRecognition111.csproj",
+        "projectUniqueName": "C:\\Users\\so17001133\\Documents\\FaceRecognition111\\face-recognition\\FaceRecognition111.csproj",
         "projectName": "FaceRecognition111",
-        "projectPath": "C:\\Users\\so17001133\\Documents\\FaceRecognition111\\FaceRecognition111.csproj",
+        "projectPath": "C:\\Users\\so17001133\\Documents\\FaceRecognition111\\face-recognition\\FaceRecognition111.csproj",
         "packagesPath": "C:\\Users\\so17001133\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\so17001133\\Documents\\FaceRecognition111\\obj\\",
+        "outputPath": "C:\\Users\\so17001133\\Documents\\FaceRecognition111\\face-recognition\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\so17001133\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,20 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Emgu.CV.runtime.windows": {
+              "target": "Package",
+              "version": "[4.5.1.4349, )"
+            },
+            "EmguCV": {
+              "target": "Package",
+              "version": "[3.1.0.1, )"
+            },
+            "VisioForge.DotNet.Core.TRIAL": {
+              "target": "Package",
+              "version": "[14.0.45, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

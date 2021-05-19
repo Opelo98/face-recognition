@@ -6,4 +6,10 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Emgu.CV.runtime.windows" Version="4.5.1.4349" />
+    <PackageReference Include="EmguCV" Version="3.1.0.1" />
+    <PackageReference Include="VisioForge.DotNet.Core.TRIAL" Version="14.0.45" />
+  </ItemGroup>
+
 </Project>
